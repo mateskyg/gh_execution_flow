@@ -83,6 +83,6 @@ jobs:
     steps:
       - name: Output information
         run: |
-          echo "SP,ething went wrong"
-          echo "${{ github }}"
+          echo "Something went wrong"
+          echo "${{ toJSON(github) }}"
 
